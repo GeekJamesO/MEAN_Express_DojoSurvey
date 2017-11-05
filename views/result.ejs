@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Results</title>
+    <link rel="stylesheet" href="/master.css">
+</head>
+
+<body>
+    <div class="OutlinedBox">
+        <div class="leftColumn">
+            Name: <br> Dojo Location: <br> Favorite Language: <br> Comment:
+        </div>
+        <div class="rightColumn">
+            <%= session.Name %>
+                <br>
+                <%= session.DojoLocation %>
+                    <br>
+                    <%= session.favLanguage %>
+                        <br>
+                        <%= session.Comment %>
+        </div>
+    </div>
+</body>
+
+</html>

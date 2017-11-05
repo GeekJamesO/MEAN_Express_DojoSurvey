@@ -1,0 +1,9 @@
+.OutlinedBox {
+    border: 3px solid black;
+    margin: 50px;
+}
+
+.leftColumn,
+.rightColumn {
+    display: inline-block;
+}
